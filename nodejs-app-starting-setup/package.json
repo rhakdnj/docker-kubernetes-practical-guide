@@ -1,0 +1,12 @@
+{
+  "name": "docker-complete",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "author": "Maximilian Schwarzmüller / Academind GmbH",
+  "license": "MIT",
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "express": "^4.18.2"
+  }
+}
