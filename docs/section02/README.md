@@ -97,8 +97,10 @@ CMD ["node", "server.js"]
 
 ```shell
 # 상대 경로에 dockerfile
-docker build .
+$ docker build .
+5b803c7b513d61
+
+docker run -p 3000:80 5b803c7b513d61
 ```
 
-## EXPOSE -p 차이 (검색 dockerfile expose port)
-
+-p, --publish-all: 노출된 모든 포트를 임의의 포트에 게시
